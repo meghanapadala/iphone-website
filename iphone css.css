@@ -1,0 +1,315 @@
+body
+{
+	margin: 0px;
+	
+
+}
+#footer
+{
+	background-color: black;
+	padding:10px 20px;
+	text-align: center;
+	display:flex;
+	flex-direction:row;
+	color: grey;
+	padding-left:550px;
+}
+/*navbar*/
+#navbar
+{
+	background-color: black;
+	padding:10px 20px;
+	text-align: 100%;
+	display:flex;
+	flex-direction:row;
+
+}
+
+#navbar a
+{
+	padding-right: 177px;
+	color: silver;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	display:inline-block;
+}
+#navbar a:active
+{
+	color:white;
+	background-color:silver;
+	border-radius:10px;
+	
+}
+#navbar a:hover
+{
+	color:white;
+	background-color: grey;
+	border-radius: 10px;
+}
+
+#navbar i
+{
+	padding-right: 5px;
+	font-size: 20px;
+}
+/*heading*/
+header
+{
+	background-image: url("https://digiday.com/wp-content/uploads/2015/09/iphone7-alt-782x436.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:80px;
+	text-align:center;
+	font-size: 40px;
+}
+header h1
+{
+	margin: 0px auto;
+	color:black;
+	
+}
+header h4
+{
+	margin: 0px ;
+	color:#f59542;
+	
+}
+
+/*main section*/
+#mainsection
+{
+	text-align:center;
+	margin:15px 0px;
+}
+#mainsection .mainarticle
+{
+	border:2px solid black;
+	box-shadow:0 0 10px black;
+	width:330px;
+	height:520px;
+	margin:5px;
+	display:inline-grid;
+	border-radius:0px 30px 0px 30px;
+	transition:all 0.5s;
+}
+#mainsection .mainarticle:hover
+{
+	width:340px;
+	cursor:pointer;
+}
+
+img
+{
+	width:100%;
+	height: 250px;
+}
+}
+.mainarticle .text 
+{
+	padding:10px;
+	
+}
+.mainarticle h2
+{
+	background-color: #f59542;
+	color: white;
+	border-radius: 20px;
+	text-align: center;
+}
+/*/*----------Main-Section-News----------*/
+#mainsectionnews
+{ 
+	width:80%;
+	margin:auto;
+	color: black;
+}
+#mainsectionnews .mainarticlenews
+{
+	border:2px solid black;
+	box-shadow:0 0 10px black;
+	border-radius:20px;
+	margin:10px;
+	overflow:hidden;
+	text-align:center;
+}
+#mainsectionnews .mainarticlenews img
+{
+	width:500px;
+	height:250px;
+	margin-top: 10px;
+	box-shadow:0 0 10px red;
+	border-radius:20px;
+	transition:all 0.5s;
+}
+#mainsectionnews .mainarticlenews img:hover
+{
+	transform:scale(1.2,1.2);
+}
+#mainsectionnews .mainarticlenews h2
+{
+	background-color:#f59542;
+	color:white;
+	margin:0px;
+	padding:5px;
+}
+.mainarticle .text
+{
+	color: black;
+}
+/*----------Main-Section-Gallery----------*/
+
+#mainsectiongallery .mainsectiongalleryarticle 
+{
+	border:2px solid black;
+	box-shadow:0 0 10px black;
+	border-radius:20px;
+	margin:70px;
+	overflow:hidden;
+	text-align:center;
+	
+}
+#mainsectiongallery .mainsectiongalleryarticle h2
+{
+	background-color:#f59542;
+	color: white;
+	margin:0px;
+	padding:10px;
+	text-align: center;
+}
+#mainsectiongallery .mainsectiongalleryarticle img
+{
+	width:250px;
+	height:300px;
+	box-shadow:0 0 10px red;
+	border-radius:20px;
+	transition: all 0.5s;
+	margin-top: 20px;
+}
+#mainsectiongallery .mainsectiongalleryarticle img:hover
+{
+	transform: scale(1.2,1.2);
+}
+
+/*----------Main-Section-About----------*/
+
+#mainsectionabout .mainaboutarticle
+{
+	border:2px solid black;
+	box-shadow:0 0 10px black;
+	border-radius:20px;
+	margin:10px;
+	color:black;
+	overflow: hidden;
+	font-size: 20px;
+	background-image:url(https://cnet1.cbsistatic.com/img/oo9YAOrKgEVFdJXsdtvmsakkwo0=/1200x630/2019/09/17/90f7d3bd-36f9-49c3-897
+	 	e-727b763ef29f/iphone-11-ny-promo-crop.jpg) no-repeat cover; 
+}
+#mainsectionabout .mainaboutarticle h2
+{
+	background-color:#f59542;
+	color: white;
+	margin:0px;
+	padding:10px;
+	text-align: center;
+}
+/*----------Main-Section-Contact----------*/
+
+#mainsectioncontact
+{
+	text-align: center;
+	border:2px solid black;
+	box-shadow:0 0 10px black;
+	border-radius:20px;
+	margin:10px;
+	overflow: hidden;
+	
+}
+#mainsectioncontact .maincontactarticle h2
+{
+	background-color: #f59542;
+	color: white;
+	margin:0px;
+	padding: 10px;
+
+}
+#org
+{
+	margin: 20px  auto;
+	width: 400px;
+}
+.alter
+{
+		
+	width:30%;
+}
+.alter input[type="text"],input[type="email"],input[type="password"],input[type="number"]
+{
+ 	height: 60px;
+	width: 	400px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	background:none;
+	border-bottom: 3px solid grey;
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+.alter input[type="submit"]
+{
+	width: 	180px;
+	height:30px;
+	margin:10px;
+	margin-bottom: 30px;
+	border-radius: 	10px;
+	background-color: rgb(36, 35, 34);
+	border: none;
+	outline: none;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	font-size: 20px;
+	color:white;
+}
+input[type="submit"]:hover
+{
+	box-shadow: 0 0 20px grey;
+	cursor: pointer;
+}
+::placeholder
+		{
+			font-family: "Courier New", Courier, monospace;
+			font-weight: bold;
+			color: black;
+		}
+.far
+		{
+			font-size: 90px;
+			background-color: silver;
+			margin-top: 30px;
+			border-radius: 50%;
+			border: 7px black;
+		}
+#icon
+{
+	text-align: center;
+}
+@media (max-width:750px)
+{
+	#navbar
+	{
+		flex-direction:column;
+	}
+	
+	#mainsectionnews .mainarticlenews img
+	{
+		width:400px;
+	}
+	#mainsectiongallery .mainsectiongalleryarticle img
+	{
+		width:400px;
+	}
+
+}
+
+
